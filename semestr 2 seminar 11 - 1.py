@@ -1,0 +1,6 @@
+file = open('1-11.txt','r+')
+a = file.read()
+print(a)
+string = input()
+file.write(string)
+print(a)
